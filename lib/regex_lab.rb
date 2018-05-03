@@ -12,6 +12,7 @@ end
 
 def words_five_letters_long(text)
   words = text.split()
+  puts words
   fiveLetterWords = words.grep(/\w{5}\s/)
   return fiveLetterWords
 end
