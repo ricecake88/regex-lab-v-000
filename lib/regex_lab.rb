@@ -13,7 +13,7 @@ end
 def words_five_letters_long(text)
   words = text.split()
   puts words
-  fiveLetterWords = words.scan(/^\w{5}$)
+  fiveLetterWords = words.scan(/^\w{5}$/)
   return fiveLetterWords
 end
 
