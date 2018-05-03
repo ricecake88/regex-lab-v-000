@@ -14,6 +14,7 @@ def words_five_letters_long(text)
   words = []
   fiveLetterWords = text.scan(/\s\w{5}\s/)
   fiveLetterWords.each { |x| words.append(x.strip) }
+  return words
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
