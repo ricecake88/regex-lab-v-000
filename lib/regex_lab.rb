@@ -15,6 +15,7 @@ def words_five_letters_long(text)
   fiveLetterWords = text.scan(/\s\w{5}\s/)
   fiveletterWords.each do |letter|
     puts letter
+  end
   return fiveletterWords
 end
 
