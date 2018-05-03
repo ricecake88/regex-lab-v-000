@@ -33,6 +33,7 @@ end
 
 def valid_phone_number?(phone)
    phone.each do |number|
+     puts number
      if match(/\d{3}.*\d{3}.*\d{4}/) == nil
        return false
      else
