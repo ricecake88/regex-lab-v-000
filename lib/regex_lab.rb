@@ -24,7 +24,7 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
   words = text.split()
   words[0].match(/^[A-Z]/)
-  words[words.length]
+  words[length()]
     
 end
 
