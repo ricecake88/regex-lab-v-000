@@ -12,8 +12,7 @@ end
 
 def words_five_letters_long(text)
   words = text.split()
-  fiveLetterWords = text.grep(/\w{5}\s/)
-  fiveLetterWords.each { |x| words.push(x.strip) }
+  fiveLetterWords = words.grep(/\w{5}\s/)
   return words
 end
 
