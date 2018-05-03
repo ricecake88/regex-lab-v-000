@@ -23,8 +23,11 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   words = text.split()
-  words[0].match(/^[A-Z]/)
-  words[length()]
+  if words[0].match(/^[A-Z]/) == nil || words[words.length-1].match(/[.?]$/) == nil
+    return false
+  else
+    return true
+  end
     
 end
 
