@@ -14,6 +14,7 @@ def words_five_letters_long(text)
   words = text.split()
   fiveLetterWords.each do |letter|
     puts letter
+  end
   return fiveLetterWords
 end
 
