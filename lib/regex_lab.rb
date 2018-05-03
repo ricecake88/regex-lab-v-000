@@ -14,7 +14,7 @@ def words_five_letters_long(text)
   words = text.split()
   fiveLetterWords = []
   words.each do |letter|
-    if letter.scan(/^\w{5}$/)
+    if letter.match(/^\w{5}$/)
       puts letter
       fiveLetterWords.push(letter)
     end
