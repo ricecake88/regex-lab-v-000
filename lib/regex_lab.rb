@@ -32,5 +32,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-
+number_breakdown = numbers.scan(/(\d+)-(\d+)-(\d+)/)
 end
