@@ -21,6 +21,3 @@ end
 def valid_phone_number?(phone)
 
 end
-
-test = starts_with_a_vowel?("Hello")
-test
