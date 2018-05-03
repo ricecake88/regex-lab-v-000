@@ -11,9 +11,10 @@ def words_starting_with_un_and_ending_with_ing(text)
 end
 
 def words_five_letters_long(text)
+  
   fiveLetterWords = text.scan(/\s\w{5}\s/)
   fiveletterWords.each do |letter|
-    letter.strip()
+    puts letter
   return fiveletterWords
 end
 
